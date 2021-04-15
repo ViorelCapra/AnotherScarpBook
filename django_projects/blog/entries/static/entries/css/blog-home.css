@@ -1,0 +1,15 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+
+ */
+
+body{
+    padding-top: 20px;
+    padding_bottom : 20px;
+   }
+
+.navbar {
+    margin-bottom: 20px;
+    font-family: "Sitka Display";
+    color: cyan;
+}

@@ -1,0 +1,13 @@
+{% extends 'entries/base.html' %}
+{% block content %}
+<h1>Search Results</h1>
+
+<ul>
+  {% for entry in object_list %}
+    <li>
+      {{ entry.entry_title }}, {{ entry.entry_text }}
+    </li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}
